@@ -1,0 +1,142 @@
+Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+s="Roshni"
+type(s)
+<class 'str'>
+s='Roshni'
+type(s)
+<class 'str'>
+y=""" hbfhwbfuwhfuwghfyhwbgfhwbchwbcuwigduIN MZAMSNBJIHGWQUIUIHRQWUHUHFDJBVJBVJA"""
+type(y)
+<class 'str'>
+y
+' hbfhwbfuwhfuwghfyhwbgfhwbchwbcuwigduIN MZAMSNBJIHGWQUIUIHRQWUHUHFDJBVJBVJA'
+s[0]
+'R'
+s[1]
+'o'
+s[2]
+'s'
+s[3]
+'h'
+s[4]
+'n'
+s[5]
+'i'
+s[6]
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    s[6]
+IndexError: string index out of range
+s[1]='t'
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    s[1]='t'
+TypeError: 'str' object does not support item assignment
+s[-1]
+'i'
+s=" This is GEC Vaishali Python Workshop."
+s[0:4]
+' Thi'
+s="This is GEC Vaishali Python Workshop."
+s[0:4]
+'This'
+s[0;5]
+SyntaxError: invalid syntax
+s[0:5]
+'This '
+s[0:7]
+'This is'
+s[7:9]
+' G'
+s[7:8]
+' '
+s[6:7]
+'s'
+s[5:7]
+'is'
+s=[-1:-4]
+SyntaxError: invalid syntax
+s=[-1]
+
+s=[-1:2]
+SyntaxError: invalid syntax
+s=[-1:-4]
+SyntaxError: invalid syntax
+s[-1]
+-1
+s[-1:2]
+[-1]
+s="This is GEC Vaishali Python Workshop."
+s[-1]
+'.'
+s[-2]
+'p'
+s[-2:8]
+''
+s[-2:-8]
+''
+s[-8:-2]
+'orksho'
+s[-7:-1]
+'rkshop'
+s[-9:-2]
+'Worksho'
+s[-9:-1]
+'Workshop'
+s[-17:-10]
+' Python'
+s[-27:-11]
+'C Vaishali Pytho'
+s[-26:-17]
+' Vaishali'
+>>> s[-31:-18]
+'s GEC Vaishal'
+>>> s[-30:-25]
+' GEC '
+>>> s[8:-10]
+'GEC Vaishali Python'
+>>> s='This is GEC Vaishali Python Workshop.'
+>>> s[8:-10]
+'GEC Vaishali Python'
+>>> s="Roshni"
+>>> print("My name is "s0
+...       
+SyntaxError: '(' was never closed
+>>> s="Roshni"
+... print("My name is "s)
+...       
+SyntaxError: multiple statements found while compiling a single statement
+>>> s="Roshni"
+... print("My name is ",s)
+...       
+SyntaxError: multiple statements found while compiling a single statement
+>>> x="Roshni"
+... print("My name is ",x)
+...       
+SyntaxError: multiple statements found while compiling a single statement
+>>> s="() This is State Government Engineering College",format("GEC Vaishali")
+...       
+>>> s
+...       
+('() This is State Government Engineering College', 'GEC Vaishali')
+>>> 1=[7,"atul",4,5,True]
+...       
+SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
+>>> I=[7,"atul",4,5,True]
+...       
+>>> I,appand(65)
+...       
+Traceback (most recent call last):
+  File "<pyshell#61>", line 1, in <module>
+    I,appand(65)
+NameError: name 'appand' is not defined
+>>> I=[7,"atul",4,5,True]
+...       
+>>> I,append(65)
+...       
+Traceback (most recent call last):
+  File "<pyshell#63>", line 1, in <module>
+    I,append(65)
+NameError: name 'append' is not defined
