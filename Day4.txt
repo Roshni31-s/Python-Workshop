@@ -1,4 +1,4 @@
-Pype "help", "copyright", "credits" or "license()" for more information.
+
 import numpy
 Traceback (most recent call last):
   File "<pyshell#0>", line 1, in <module>
