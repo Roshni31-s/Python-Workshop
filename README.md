@@ -19,3 +19,4 @@ Python is a general-purpose programming language.In Python Workshop we covered l
 17.Dictionary
 18 OOPS
 19.Modules
+20.Data Analysis using Python.
